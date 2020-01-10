@@ -10,11 +10,14 @@ public class BallScript : MonoBehaviour
 {
     ControlManager controlManager;
     public Vector3 originalPositions;
+    private void Awake()
+    {
+        originalPositions = transform.localPosition;
+    }
     private void Start()
     {
         DOTween.Init();
         controlManager = ControlManager.Instance;
-        originalPositions = transform.localPosition;
     }
     private void OnTriggerEnter(Collider other)
     {

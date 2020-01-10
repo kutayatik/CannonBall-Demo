@@ -55,11 +55,12 @@ public class ControlManager : MonoBehaviour
     bool _isNan = false;
 
     public Transform CurrentWall;
+    List<CubeScript> WallPoint = new List<CubeScript>();
     public GameObject ExplosionEffect;
 
     public bool IsPlayable = true;
 
-    List<Transform> ExplosionPoints = new List<Transform>();
+    public List<Transform> ExplosionPoints = new List<Transform>();
     int _score;
     List<GameObject> BallsForShoot = new List<GameObject>();
 
@@ -73,24 +74,23 @@ public class ControlManager : MonoBehaviour
         {
             _instance = this;
         }
+        foreach (Transform item in RoadBallsParent)
+        {
+            RoadBalls.Add(item);
+            item.GetComponent<MeshRenderer>().enabled = false;
+        }
+
+
     }
 
     private void Start()
     {
         DOTween.Init();
         //yolları temsil edecek topları ekledik.
-        foreach (Transform item in RoadBallsParent)
-        {
-            RoadBalls.Add(item);
-            item.GetComponent<MeshRenderer>().enabled = false;
-        }
-        foreach (Transform item in CurrentWall)
-        {
-            if (item.tag == "ExplosionPoint")
-            {
-                ExplosionPoints.Add(item);
-            }
-        }
+
+        WallPoint = CurrentWall.GetComponentsInChildren<CubeScript>().ToList();
+
+
         Balls = GameObject.FindGameObjectsWithTag("Player");
 
         Restart();
@@ -292,9 +292,9 @@ public class ControlManager : MonoBehaviour
 
     void ResetWall()
     {
-        foreach (Transform item in CurrentWall)
+        foreach (CubeScript item in WallPoint)
         {
-            item.GetComponent<CubeScript>().ResetCubes();
+            item.ResetCubes();
         }
 
         foreach (Transform item in ExplosionPoints)
@@ -310,16 +310,17 @@ public class ControlManager : MonoBehaviour
         _score = 0;
         ExplosionEffect.SetActive(false);
         Target.GetComponent<MeshRenderer>().enabled = false;
-        BallsForShoot = Balls.ToList();
-        foreach (GameObject item in BallsForShoot)
-        {
-            item.GetComponent<BallScript>().ResetBallsPos();
-        }
+
         IsPlayable = true;
         FinishPanel.gameObject.SetActive(false);
         IngameSlider.maxValue = MaxWaitTime;
         IngameSlider.value = MaxWaitTime;
         transform.localRotation = Quaternion.identity;
+        BallsForShoot = Balls.ToList();
+        foreach (GameObject item in BallsForShoot)
+        {
+            item.GetComponent<BallScript>().ResetBallsPos();
+        }
     }
 
     //Oyun bittiğinde çalışan fonksiyon

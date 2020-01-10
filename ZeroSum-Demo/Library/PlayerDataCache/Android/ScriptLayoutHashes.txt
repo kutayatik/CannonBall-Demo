@@ -1,10 +1,12 @@
 Android
 PlayerPath?
-C:/Users/kutay/Desktop/ZeroSum-Demo/zerosumdemoapk.apk
+C:/Users/kutay/Desktop/ZeroSum-Demo/sdas.apk
 SceneListBegin?
 Assets/Scenes/Demo.unity
 SceneListEnd?
+e4db0ddf42150a3b60bd39cf2bc3def2 Assembly-CSharp.dll:.CFX_LightFlicker
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
+671420ad2c33f1ddaf6d076461adf15a Assembly-CSharp.dll:.CFX_Demo_Translate
 01aa15e337e3a9c62f15153dfac6d589 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 06f0fef534ca4c1d6064fd77a26bf722 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -97,6 +99,7 @@ e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.G
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 201e3fde670b00545944bb3db215c80a UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 00274a21279f5cb831ce20f895049e38 Unity.TextMeshPro.dll:TMPro.TMP_SubMeshUI
+1d0beb1a2d4edee4c06b6835632e83a3 Assembly-CSharp.dll:.CFX_AutoStopLoopedEffect
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 1dcb82730d983b77cec736c6ef19f814 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -115,11 +118,16 @@ d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.Spa
 303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
 7fb9de8dcf73854b6b328eca1f7a6e6d Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsTracker
 b8a5e8091ab0b8861d2add371082c5e0 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
+a75848de8db7ed4aa4ea22e2e8ea6ea0 Assembly-CSharp.dll:.CubeScript
+4aac268d7e435f7a65add91aaba819a4 Assembly-CSharp.dll:.CFX_Demo_RandomDir
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
+3f5031037e63abe5dcf87c278e01a4de Assembly-CSharp.dll:.CFX_Demo_RotateCamera
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
+5d27c6e85ec89cfab8577e9e26695e88 Assembly-CSharp.dll:.CFX_AutoDestructShuriken
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 704dcd31abc789439bc3f3cd10b58c2b DOTween.dll:DG.Tweening.Core.DOTweenComponent
 9a65634b0f2713c6c2d2dd4d09159a88 DOTween.dll:DG.Tweening.Core.DOTweenSettings
+660deb0ce569359218f0ba85b7ce0e3a Assembly-CSharp.dll:.CFX_LightIntensityFade
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
 f035a5c972f61d827160aa2828c7dd08 Assembly-CSharp.dll:.BallScript
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
@@ -136,6 +144,8 @@ e0ee4b3d4e27318934cc940a969d3d96 UnityEngine.Networking.dll:UnityEngine.Networki
 ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 9b895dcabbc1faf095c000c32d471fd0 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+dad3a1f1e1ecb4691721bab721edd60a Assembly-CSharp.dll:.CFX_AutoRotate
+421b20ccd7815ebee5e2b14a986d2efc Assembly-CSharp.dll:.CFX_Demo_New
 35a9693c388776aaf487636491a20f11 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 e1300922cc039f41ab46a47f4cb05898 Unity.TextMeshPro.dll:TMPro.TMP_Settings
 88cc9df3c6fc697bfbeacd24c0d6f2d7 UnityEngine.TestRunner.dll:UnityEngine.TestTools.BeforeAfterTestCommandState
@@ -154,21 +164,11 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
 ee0cef6caaac8ae485bfa82f000f0f7b Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 5fc094978ce3e3591a7500ed380d854a Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
-da72a4db0b89a40450a89b7f248405c3 Assembly-CSharp.dll:.ControlManager
+014df8c3e14415d6df456a496804a296 Assembly-CSharp.dll:.ControlManager
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
+e70e7b311a1620c2e899545b2e1fdfae Assembly-CSharp.dll:.CFX_Demo_RandomDirectionTranslate
 5372ed2ce39229b1ac910757999a8be2 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.GameManager
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
-e4db0ddf42150a3b60bd39cf2bc3def2 Assembly-CSharp.dll:.CFX_LightFlicker
-671420ad2c33f1ddaf6d076461adf15a Assembly-CSharp.dll:.CFX_Demo_Translate
-1d0beb1a2d4edee4c06b6835632e83a3 Assembly-CSharp.dll:.CFX_AutoStopLoopedEffect
-4aac268d7e435f7a65add91aaba819a4 Assembly-CSharp.dll:.CFX_Demo_RandomDir
-3f5031037e63abe5dcf87c278e01a4de Assembly-CSharp.dll:.CFX_Demo_RotateCamera
-5d27c6e85ec89cfab8577e9e26695e88 Assembly-CSharp.dll:.CFX_AutoDestructShuriken
-660deb0ce569359218f0ba85b7ce0e3a Assembly-CSharp.dll:.CFX_LightIntensityFade
-dad3a1f1e1ecb4691721bab721edd60a Assembly-CSharp.dll:.CFX_AutoRotate
-421b20ccd7815ebee5e2b14a986d2efc Assembly-CSharp.dll:.CFX_Demo_New
-e70e7b311a1620c2e899545b2e1fdfae Assembly-CSharp.dll:.CFX_Demo_RandomDirectionTranslate
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.CubeScript

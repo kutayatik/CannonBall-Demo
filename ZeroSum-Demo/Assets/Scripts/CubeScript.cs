@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CubeScript : MonoBehaviour
 {
-    Vector3 starPos;
-    void Start()
+    public Vector3 starPos;
+    private void Awake()
     {
         starPos = transform.localPosition;
     }
@@ -16,7 +16,6 @@ public class CubeScript : MonoBehaviour
         transform.localRotation = Quaternion.identity;
         transform.localPosition = starPos;
         gameObject.SetActive(true);
-
     }
 
 
